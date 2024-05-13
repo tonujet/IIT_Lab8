@@ -1,0 +1,19 @@
+{
+  "name": "bot_node",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node --env-file=.env src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "type": "module",
+  "dependencies": {
+    "@fluent-org/logger": "^1.0.2",
+    "discord.js": "^14.15.2",
+    "express": "^4.19.2",
+    "prom-client": "^15.1.2"
+  }
+}
